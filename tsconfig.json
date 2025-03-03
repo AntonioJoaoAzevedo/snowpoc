@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "rootDir": "src/server",
+        "outDir": "dist/server",
+        "module": "nodenext",
+        "target": "es2021",
+        "moduleResolution": "nodenext",
+        "allowJs": true,
+        "declaration": false,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "allowImportingTsExtensions": true
+    },
+    "include": ["src/server/**/*.ts"],
+    "exclude": ["node_modules", "**/*.now.ts"]
+}

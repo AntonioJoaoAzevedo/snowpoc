@@ -1,0 +1,19 @@
+{
+    "name": "x-snc-pnr-base-case",
+    "version": "1.0.0",
+    "description": "PNR",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "dependencies": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "typescript": "5.5.4",
+        "@servicenow/sdk": "3.0.0-beta.12",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "3.0.0-beta.12"
+    }
+}
